@@ -1,14 +1,14 @@
 Project Title - Health Master
 
 Features - 
-	1.user can register (sign-up, sign-in)
+	1.User can register (sign-up, sign-in)
 	2.User can register using google account
 	3.User can calculate BMI 
 	4.User can get health suggestion
 	5.User can check his/her heart rate
 	6.User can keep track of daily calories burn in the database
 	7.Patient can communicate with doctors
-	8.patient can get help with medication dosage
+	8.Patient can get help with medication dosage
 	9.Patient can ask for emergency checkup
 	10.User can get daily notifications
 
