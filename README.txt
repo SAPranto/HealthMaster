@@ -1,6 +1,7 @@
 Project Title - Health Master
 
 Features - 
+
 	1.User can register (sign-up, sign-in)
 	2.User can register using google account
 	3.User can calculate BMI 
@@ -16,12 +17,21 @@ Team Information -
 
 	1.Shihab Ahmed Pranto - 1712368642
 	2.Ashraful Alam Afnan -1721744642
+	
+Operating System - 
+
+	1.Android
+	
+Written In -
+
+	1. Java
 
 Links To Materials - 
-		     1.https://github.com/loutfialiluch/HealthCare
-		     2.https://github.com/wallysonlima/calcounter
-		     3.https://github.com/ibnahmadbello/Health-Calculator
-	             4.https://github.com/SEUNAKINTOLA/HealthMonitor
-		     5.https://github.com/dianad96/Team13-OpenMRS	
+
+	1.https://github.com/loutfialiluch/HealthCare
+	2.https://github.com/wallysonlima/calcounter
+	3.https://github.com/ibnahmadbello/Health-Calculator
+	4.https://github.com/SEUNAKINTOLA/HealthMonitor
+	5.https://github.com/dianad96/Team13-OpenMRS	
 
 
