@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeartRate"
+    android:background="#44DDAFA6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/statusForheartrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Status"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="70dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/BPMcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="78"
+                android:layout_marginTop="0dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#AA071A"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/BPM"
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="0dp"
+                android:text="bpm"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="#AA071A"
+                android:textSize="27sp"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/Measurement"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Measure Heart Beat"
+                />
+
+            <Button
+                android:id="@+id/VGraph"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:elevation="4dp"
+                android:gravity="center"
+                android:padding="20dp"
+                android:text="Statistic of Heart Rate"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <com.gigamole.library.PulseView
+        android:id="@+id/pv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:pv_alpha="70"
+        app:pv_color="#FFF"
+        app:pv_icon="@drawable/heatrateforapi"
+        app:pv_icon_height="70dp"
+        app:pv_icon_width="70dp"
+        app:pv_interpolator="@android:anim/linear_interpolator"
+        app:pv_measure="height"
+        app:pv_spawn_period="500" />
+
+</FrameLayout>

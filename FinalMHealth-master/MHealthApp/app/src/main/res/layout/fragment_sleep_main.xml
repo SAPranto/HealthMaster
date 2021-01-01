@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+    <Button
+        android:id="@+id/buttons_dsptplayers_sam23_back"
+        android:layout_width="145dp"
+        android:layout_gravity="center"
+
+        android:layout_height="wrap_content"
+        android:text="Sleep Begin"
+        android:textColor="@color/buttontextcolor1"
+        android:background="@drawable/roundbutton"
+        android:layout_marginBottom="50dp"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+        >
+        <Button
+            android:id="@+id/buttons_dsp3_back"
+            android:layout_width="145dp"
+            android:layout_gravity="center"
+
+            android:layout_height="match_parent"
+            android:text="Sleep"
+            android:textColor="@color/buttontextcolor1"
+            android:background="@drawable/buttonshape"
+            android:layout_marginRight="10dp"
+            />
+        <!--  <Button
+              android:id="@+id/buttons_dsptpla"
+              android:layout_width="145dp"
+              android:layout_gravity="center"
+
+              android:layout_height="match_parent"
+              android:text="Powernap"
+              android:textColor="@color/buttontextcolor1"
+              android:background="@drawable/buttonshape"
+              android:layout_marginLeft="10dp"
+              />-->
+    </LinearLayout>
+
+</LinearLayout>

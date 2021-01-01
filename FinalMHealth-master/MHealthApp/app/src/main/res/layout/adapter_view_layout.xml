@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3F2FA">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/firstlayer_profile"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/Med_name_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Medicine Name"
+            android:textColor="@color/maroon"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dose_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dose"
+            android:textColor="#2F5FB4"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/food_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Before Food"
+            android:textColor="#2F5FB4"
+            android:textSize="16sp"
+            />
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/time_txt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Alarm"
+                    android:textColor="#2F5FB4"
+                    android:textSize="16sp"
+                    android:paddingRight="16dp" />
+                <TextView
+                    android:id="@+id/time_txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Alarm"
+                    android:textColor="#2F5FB4"
+                    android:textSize="16sp"
+                    android:paddingRight="16dp" />
+                <TextView
+                    android:id="@+id/time_txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No Alarm"
+                    android:textColor="#2F5FB4"
+                    android:textSize="16sp" />
+
+        </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

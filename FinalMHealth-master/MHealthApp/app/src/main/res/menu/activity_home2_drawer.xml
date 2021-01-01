@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_profile"
+            android:title="Profile" >
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title ="Features">
+            <menu>
+                <item
+                    android:id="@+id/nav_HeartRateMenu"
+                    android:icon="@drawable/ic_favorite_black_24dp"
+                    android:orderInCategory="200"
+                    android:title="Heart Rate"
+                    />
+                <item
+                    android:id="@+id/nav_ActivityMenu"
+                    android:icon="@drawable/ic_trending_up_black_24dp"
+                    android:orderInCategory="300"
+                    android:title="Steps Count" />
+                <item
+                    android:id="@+id/nav_MealPlanMenu"
+                    android:icon="@drawable/ic_menu_mealplan"
+                    android:orderInCategory="400"
+                    android:title="Meal Plan" />
+                <item
+                    android:id="@+id/nav_ReminderMenu"
+                    android:icon="@drawable/ic_menu_reminder"
+                    android:orderInCategory="500"
+                    android:title="Reminder" />
+
+                <item
+                    android:id="@+id/nav_BMIMenu"
+                    android:icon="@drawable/ic_menu_activity"
+                    android:orderInCategory="600"
+                    android:title="Body Measurements"
+                    />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="Settings"
+                android:orderInCategory="700"/>
+            <item
+                android:id="@+id/nav_action_FAQ"
+                android:orderInCategory="800"
+                android:title="FAQ"
+                android:icon="@drawable/ic_question_answer_black_24dp" />
+            <item android:id="@+id/nav_logoutMenu"
+                android:orderInCategory="900"
+                android:title="Log Out"
+                android:icon="@drawable/ic_logout" />
+
+
+        </menu>
+    </item>
+
+</menu>

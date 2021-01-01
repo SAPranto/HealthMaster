@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/meal" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <!-- Headline -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViewViewFoodName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="Name" />
+
+                <EditText
+                    android:id="@+id/editTextEditFoodName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+            </TableRow>
+            <!-- //Headline -->
+
+            <!-- Manufactor -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <!-- //Manufactor -->
+
+            <!-- Description -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:id="@+id/textViewViewFoodDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="Description"
+                    />
+
+                <EditText
+                    android:id="@+id/editTextEditFoodDescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ems="10" />
+            </TableRow>
+            <!-- //Description -->
+
+            <!-- Barcode -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <!-- //Barcode -->
+
+        </TableLayout>
+        <!-- //General Table -->
+
+
+        <!-- Category Table -->
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Main category -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"/>
+            <!-- //Main Category -->
+
+            <!-- Sub category -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="4dp"/>
+            <!-- //Sub Category -->
+
+        </TableLayout>
+        <!-- //General Table -->
+
+
+        <!-- Serving Table -->
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Size and Mesurment -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <!-- //Size and Mesurment -->
+
+
+            <!-- Number and Word -->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <!-- //Number and Word -->
+
+
+        </TableLayout>
+        <!-- //Serving Table -->
+
+
+
+        <!-- Calories table -->
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textViewViewFoodBlankPerHundred"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:text="Calories"
+                    android:paddingRight="18dp"/>
+
+                <EditText
+                    android:id="@+id/food_cal_Tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="6dp"
+                    android:hint="Enter Food Calories (in Kcal)"
+                    android:inputType="numberDecimal"
+                    android:textSize="16sp"/>
+            </TableRow>
+
+        </TableLayout>
+        <!-- //Calories table -->
+
+
+        <Button
+            android:id="@+id/buttonEditFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/custom_button"/>
+
+
+    </LinearLayout>
+</ScrollView>

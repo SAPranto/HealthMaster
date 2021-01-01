@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bmi_design">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bmi"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="BMI"
+                android:textSize="35dp"
+                android:textStyle="bold|italic"
+                android:textColor="#44027C"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Calculator"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:textColor="#44027C"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:text="Height:"
+                    android:textStyle="bold|italic"
+                    android:textColor="#44027C"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp" />
+
+                <TextView
+                    android:id="@+id/height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#44027C"
+                    android:text="Height"
+                    android:textSize="22sp"
+                    android:paddingRight="10dp"/>
+                <TextView
+                    android:id="@+id/heightUnit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#44027C"
+                    android:text="cm"
+                    android:textSize="22sp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="60dp">
+                <TextView
+                    android:text="Weight:"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="#44027C"
+                    android:layout_gravity="center"
+                    android:paddingRight="20dp" />
+
+                <TextView
+                    android:id="@+id/weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#44027C"
+                    android:text="Weight"
+                    android:textSize="22sp"
+                    android:paddingRight="10dp"/>
+
+                <TextView
+                    android:id="@+id/weightUnit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#44027C"
+                    android:text="Kg"
+                    android:textSize="22sp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:id="@+id/text_view_id"
+                    android:layout_height="wrap_content"
+                    android:layout_width="200dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="20sp"
+                    android:text="Bmi Value"
+                    android:textStyle="bold"
+                    android:textColor="#44027C"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    />
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/rating_bar"
+                    android:numStars="6"
+                    android:stepSize="1.0"
+                    android:layout_gravity="center"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/firstlayer_profile">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_info_black_24dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        />
+
+                    <TextView
+                        android:id="@+id/text_tips_tv"
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="25dp"
+                        android:text="Tips"
+                        android:textStyle="bold"
+                        android:textColor="#3C0649"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/firstlayer_profile">
+                    <TextView
+                        android:id="@+id/tips_view_id1"
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20dp"
+                        android:text="Tips"
+                        android:textStyle="bold"
+                        android:textColor="#3C0649"
+                        />
+                    <TextView
+                        android:id="@+id/tips_view_id2"
+                        android:layout_height="wrap_content"
+                        android:layout_width="200dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20dp"
+                        android:text="Tips"
+                        android:textColor="#3C0649"
+                        android:layout_marginTop="5dp"
+                        />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+

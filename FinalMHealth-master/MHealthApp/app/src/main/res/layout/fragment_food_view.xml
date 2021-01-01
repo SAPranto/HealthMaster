@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/meal" />
+
+        <!-- Headline -->
+        <TextView
+            android:id="@+id/textViewViewFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Food Name"
+            android:textColor="#1E1E20"
+            android:textSize="18sp" />
+
+        <!-- //Headline -->
+
+        <!-- //About -->
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/textViewViewFoodDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Description" />
+        <!-- //Description -->
+
+
+        <!-- Calories table -->
+        <TextView
+            android:id="@+id/textViewViewFoodCaloriesTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Calories (per 100 gram)"
+            android:textColor="#1E1E20"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/Cal_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Calories"
+            android:textSize="18sp"
+            android:background="@drawable/custom_textview"/>
+        <TextView
+            android:id="@+id/textViewtitleofAddServing1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Number of servings"
+            android:textSize="18sp"
+            android:textColor="#1E1E20"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp">
+                <EditText
+                    android:id="@+id/edittextPortion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:inputType="number" />
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textViewtitleofAddServing2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Serving Size"
+            android:textColor="#1E1E20"
+            android:textSize="18sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp">
+                <EditText
+                    android:id="@+id/PortionSizeGram_pcs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="3"
+                    android:inputType="number" />
+                <Spinner
+                    android:id="@+id/spinner_grms_pcs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:textAlignment="center"
+                    />
+            </TableRow>
+        </TableLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/save_food_to_diary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Save to Diary"
+                android:textSize="18sp"
+                android:background="@drawable/custom_button"/>
+
+        </LinearLayout>
+
+
+
+        <!-- //Calories table -->
+    </LinearLayout>
+</ScrollView>
