@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">MHealthApp</string>
+    <string name="title_activity_home2">MHealthApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="button">Button</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="YES">Yes</string>
+    <string name="NO">No</string>
+
+    <string name="MALE">Male</string>
+    <string name="FEMALE">Female</string>
+
+    <string name="title_activity_days">DaysActivity</string>
+    <string-array name="dose">
+        <item>Full Tablet</item>
+        <item>Half Tablet</item>
+        <item>Quarter Tablet</item>
+        <item>One Injection</item>
+        <item>One Drop</item>
+        <item>Two Drops</item>
+        <item>Three Drops</item>
+    </string-array>
+
+    <string-array name="welcome">
+        <item>Welcome</item>
+        <item>Hey There</item>
+        <item>Keep Eye On Your Health</item>
+    </string-array>
+    <string-array name="duration">
+        <item>3 days</item>
+        <item>1 Week</item>
+        <item>10 days</item>
+        <item>2 Week</item>
+        <item>3 Week</item>
+        <item>1 month</item>
+        <item>Lifetime</item>
+    </string-array>
+
+    <string-array name="med">
+        <item>Tablet</item>
+        <item>Capsule</item>
+        <item>Drops</item>
+        <item>Injection</item>
+    </string-array>
+
+    <string-array name="food">
+        <item>Before Food</item>
+        <item>After Food</item>
+    </string-array>
+
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done</string>
+
+    <string-array name="g_p">
+        <item>gram</item>
+        <item>pcs</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

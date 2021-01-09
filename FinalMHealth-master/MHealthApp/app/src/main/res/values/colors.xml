@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#e3e6e5</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="maroon">#684FE9</color>
+    <color name="white">#FFEAEBF1</color>
+    <color name="colorProfile">#d63838</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="buttoncolor1">#185B85</color>
+    <color name="buttontextcolor1">#F3F0F0</color>
+
+</resources>
