@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "694230490992",
+    "firebase_url": "https://phealthapp-28dfb.firebaseio.com",
+    "project_id": "phealthapp-28dfb",
+    "storage_bucket": "phealthapp-28dfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694230490992:android:fab3eeaf84eaa628",
+        "android_client_info": {
+          "package_name": "com.example.mhealthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694230490992-iv94hc90532htre906jqlp81m53cqa9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mhealthapp",
+            "certificate_hash": "3cf0d967ca59bfb695aa800dd2e97dc198134c75"
+          }
+        },
+        {
+          "client_id": "694230490992-bg7hmbvh0e5b5q2qees891el8snd8lhm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mhealthapp",
+            "certificate_hash": "5300428d0dcd03f189f9e7c7cbbb3c9310329702"
+          }
+        },
+        {
+          "client_id": "694230490992-3u2ntahgr67lcapcm14p683dbpkppnan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoYjIEpW0AEOStuPS03qru0D2MW83VL8g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694230490992-3u2ntahgr67lcapcm14p683dbpkppnan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
